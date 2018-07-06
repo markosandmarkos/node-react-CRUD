@@ -10,5 +10,4 @@ router
     .put('/:id', crudController.update)
     .delete('/:id', crudController.delete);
 
-
 export default router
